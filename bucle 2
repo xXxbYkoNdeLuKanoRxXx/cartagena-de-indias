@@ -1,0 +1,7 @@
+def bucle_2():
+    n=input("¿a donde van los hobbits?" )
+    for i in range("i"):
+        print ("los hobbits a Eisengard a Eisengard") 
+
+
+bucle_2()

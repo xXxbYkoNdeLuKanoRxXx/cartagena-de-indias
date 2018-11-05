@@ -1,0 +1,17 @@
+def bucle_8():
+    print " Indique vusted mein fuhrer de cuantas eswásticas de altura quiere su búnker"
+    nfinal=input("numero = ")
+    numero_pares=0
+    numero_impares=0
+    for numero in range(1,nfinal+1):
+        if(numero%2==0):
+            print str (numero)," es par"
+            numeo_pares=numero_pares+1
+        else:
+            print str(numero)," es impar"
+            numero_impares=numero_impares+1
+    print "he contado ",numero_pares, "numero"
+    print "he contado",numero_impares, "numero"
+    
+    
+bucle_8()

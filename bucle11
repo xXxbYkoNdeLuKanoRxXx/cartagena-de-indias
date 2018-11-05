@@ -1,0 +1,19 @@
+def bucle_11():
+    print " suma paes o impares"
+    print " hasta que numero deseas sumar"
+    nfinal=input("numero = ")
+    for numero in range(1,nfinal+1):
+        if(numero%2==0):
+            print str(numero)," es par"
+            suma_pares=suma_pares+numero
+            numero_pares=numero_pares+1
+        else:
+            print str(numero)," es impar"
+            suma_impares=suma_impares+numero
+            numero_impares=numero_impares+1
+            
+    print "suma pares vale ",numero_pares, "suma_pares"
+    print "suas impares vale",numero_impares, "suma_impares"
+    
+    
+bucle_11()

@@ -1,0 +1,7 @@
+def bucle_5():
+     numero=input("a ddonde van los hobbits")
+     i=("a eisengard")
+         print i
+         
+
+bucle_5()
