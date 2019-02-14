@@ -1,0 +1,11 @@
+def descomponer_():
+    print "que numero desa busted dividir"
+    numero= 50
+    print i 
+    for i in range(50,1,-1):
+    if respuesta (50%i==0):
+        print 50%i
+    else:
+        print "nads"
+
+descomponer_()
